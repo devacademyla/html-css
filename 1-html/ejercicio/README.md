@@ -1,1 +1,0 @@
-## Semana 1: Ejercicio Propuesto

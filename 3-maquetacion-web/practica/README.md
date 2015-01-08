@@ -1,1 +1,1 @@
-## Guía Práctica
+## [Guía Práctica](https://docs.google.com/a/devacademy.la/document/d/1a44fZKoJ7nltxRnmNgcypyY9N3_MdB_T6c73oxB9wjU)
