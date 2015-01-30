@@ -37,6 +37,20 @@
     h1 {
       color: #3B5998;
     }
+    @media screen and (max-width: 768px) {
+      nav {
+        position: absolute;
+        left: -200px;
+        transition: left 3s ease;
+        width: 200px;
+      }
+      nav.mostrarse {
+        left: 0;
+      }
+      section {
+        width: 100%;
+      }
+    }
   </style>
 </head>
 <body>
@@ -49,6 +63,7 @@
       <li>FAQ</li>
     </ul>
   </nav>
+  <a href="#">MENÚ</a>
   <section>
     <h1>Tienda de libros</h1>
     <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere praesentium nemo unde reiciendis quo suscipit maiores saepe error sequi veniam. Reiciendis sunt nulla, eos, qui necessitatibus aliquam perspiciatis eius deserunt!</span><span>Repellendus, illum quia! Ad officia sit sequi animi, consequuntur, perferendis explicabo corporis cum deserunt quidem placeat, aperiam quasi harum cupiditate, repudiandae. Esse deleniti at, temporibus quasi non perspiciatis recusandae quis.</span></p>

@@ -127,3 +127,38 @@ textarea{
   border-radius: 5px;
   margin-bottom: 20px;
 }
+
+@media screen and (max-width: 800px) {
+  nav { display: none; }
+  .serie {
+    width: 22%;
+    margin-right: 4%;
+    margin-bottom: 20px;
+  }
+  .serie:nth-child(5) {
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header { padding: 0 1em; }
+  .serie {
+    width: 30%;
+    margin-right: 5%;
+  }
+  .serie:nth-child(3n + 1) {
+    margin-right: 0;
+  }
+  .serie:nth-child(5) {
+    margin-right: 5%;
+  }
+}
+
+
+
+
+
+
+
+
+
