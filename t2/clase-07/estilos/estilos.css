@@ -1,0 +1,36 @@
+body {
+  font-family: "Courier New";
+  text-align: center;
+  width: 800px;
+  margin: 0 auto;
+}
+.logo {
+  width: 150px;
+  margin: 25px auto;
+}
+ul {
+  padding: 15px;
+  margin: 0 auto;
+  border-top: 2px solid black;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+li {
+  display: inline;
+  margin: 0 5px;
+}
+section {
+  margin: 30px auto;
+}
+p {
+  width: 600px;
+  margin: 20px auto;
+}
+a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+a:hover {
+  color: #CC3333;
+}
