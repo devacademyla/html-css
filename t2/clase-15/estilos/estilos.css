@@ -1,0 +1,58 @@
+body {
+  margin: 0 auto;
+  max-width: 1240px;
+
+}
+h1 {
+  text-align: center;
+  background-color: #F4E6DD;
+  padding: .5em;
+}
+section {
+  margin: 0 auto;
+  width: 80%;
+  overflow: hidden;
+}
+article {
+  margin-bottom: 2em;
+}
+img {
+  width: 100%;
+}
+@media screen and (min-width: 640px) {
+  article {
+    float: left;
+    margin-right: 10%;
+    width: 45%
+  }
+  article:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 860px) {
+  article {
+    margin-right: 5%;
+    width: 30%
+  }
+  article:nth-child(2n) {
+    margin-right: 5%;
+  }
+  article:nth-child(3n) {
+    margin-right: 0;
+  }
+}
+@media screen and (min-width: 1000px) {
+  article {
+    margin-right: 4%;
+    width: 22%
+  }
+  article:nth-child(2n) {
+    margin-right: 4%;
+  }
+  article:nth-child(3n) {
+    margin-right: 4%;
+  }
+  article:nth-child(4n) {
+    margin-right: 0;
+  }
+}
