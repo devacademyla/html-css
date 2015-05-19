@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Off Canvas</title>
+  <style>
+    body {
+      font-size: 18px;
+      background-color: #DDD;
+      margin: 0;
+    }
+    nav {
+      background-color: #232937;
+      padding: 3em 0;
+      text-align: center;
+      width: 20%;
+    }
+    nav ul {
+      margin: 0;
+      padding: 0;
+    }
+    nav ul li {
+      color: white;
+      list-style-type: none;
+      padding: 1em;
+      text-transform: uppercase;
+    }
+    section {
+      box-sizing: border-box;
+      font-size: 1.5em;
+      padding: 1em;
+      width: 80%;
+    }
+    nav, section {
+      float: left;
+    }
+    h1 {
+      color: #3B5998;
+    }
+    @media screen and (max-width: 768px) {
+      nav {
+        position: absolute;
+        left: -200px;
+        transition: left 3s ease;
+        width: 200px;
+      }
+      nav.mostrarse {
+        left: 0;
+      }
+      section {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <ul>
+      <li>Inicio</li>
+      <li>Productos</li>
+      <li>Servicios</li>
+      <li>Contacto</li>
+      <li>FAQ</li>
+    </ul>
+  </nav>
+  <a href="#">MENÚ</a>
+  <section>
+    <h1>Tienda de libros</h1>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere praesentium nemo unde reiciendis quo suscipit maiores saepe error sequi veniam. Reiciendis sunt nulla, eos, qui necessitatibus aliquam perspiciatis eius deserunt!</span><span>Repellendus, illum quia! Ad officia sit sequi animi, consequuntur, perferendis explicabo corporis cum deserunt quidem placeat, aperiam quasi harum cupiditate, repudiandae. Esse deleniti at, temporibus quasi non perspiciatis recusandae quis.</span></p>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere praesentium nemo unde reiciendis quo suscipit maiores saepe error sequi veniam. Reiciendis sunt nulla, eos, qui necessitatibus aliquam perspiciatis eius deserunt!</span><span>Repellendus, illum quia! Ad officia sit sequi animi, consequuntur, perferendis explicabo corporis cum deserunt quidem placeat, aperiam quasi harum cupiditate, repudiandae. Esse deleniti at, temporibus quasi non perspiciatis recusandae quis.</span></p>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere praesentium nemo unde reiciendis quo suscipit maiores saepe error sequi veniam. Reiciendis sunt nulla, eos, qui necessitatibus aliquam perspiciatis eius deserunt!</span><span>Repellendus, illum quia! Ad officia sit sequi animi, consequuntur, perferendis explicabo corporis cum deserunt quidem placeat, aperiam quasi harum cupiditate, repudiandae. Esse deleniti at, temporibus quasi non perspiciatis recusandae quis.</span></p>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere praesentium nemo unde reiciendis quo suscipit maiores saepe error sequi veniam. Reiciendis sunt nulla, eos, qui necessitatibus aliquam perspiciatis eius deserunt!</span><span>Repellendus, illum quia! Ad officia sit sequi animi, consequuntur, perferendis explicabo corporis cum deserunt quidem placeat, aperiam quasi harum cupiditate, repudiandae. Esse deleniti at, temporibus quasi non perspiciatis recusandae quis.</span></p>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere praesentium nemo unde reiciendis quo suscipit maiores saepe error sequi veniam. Reiciendis sunt nulla, eos, qui necessitatibus aliquam perspiciatis eius deserunt!</span><span>Repellendus, illum quia! Ad officia sit sequi animi, consequuntur, perferendis explicabo corporis cum deserunt quidem placeat, aperiam quasi harum cupiditate, repudiandae. Esse deleniti at, temporibus quasi non perspiciatis recusandae quis.</span></p>
+    <p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere praesentium nemo unde reiciendis quo suscipit maiores saepe error sequi veniam. Reiciendis sunt nulla, eos, qui necessitatibus aliquam perspiciatis eius deserunt!</span><span>Repellendus, illum quia! Ad officia sit sequi animi, consequuntur, perferendis explicabo corporis cum deserunt quidem placeat, aperiam quasi harum cupiditate, repudiandae. Esse deleniti at, temporibus quasi non perspiciatis recusandae quis.</span></p>
+  </section>
+</body>
+</html>
