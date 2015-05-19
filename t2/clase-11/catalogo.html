@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Catálogo</title>
+  <link rel="stylesheet" href="layouts.css">
+  <style>
+    header {
+      height: 100px;
+      margin-bottom: 20px;
+    }
+    aside {
+      height: 500px;
+      width: 20%;
+      margin-right: 5%;
+      float: left;
+      margin-bottom: 10px;
+    }
+    .destacados {
+      width: 75%;
+      height: 150px;
+      float: left;
+      background-color: gray;
+    }
+    .productos {
+      width: 75%;
+      float: left;
+      overflow: hidden;
+      margin-top: 10px;
+    }
+    .productos article {
+      width: 30%;
+      height: 100px;
+      float: left;
+      margin-right: 5%;
+      margin-bottom: 10px;
+    }
+    .productos article:nth-child(3n) {
+      margin-right: 0;
+    }
+    footer {
+      clear: left;
+    }
+  </style>
+</head>
+<body>
+  <header>Header</header>
+  <aside>Sidebar</aside>
+  <section class="destacados">Destacados</section>
+  <section class="productos">
+    <article>1</article>
+    <article>2</article>
+    <article>3</article>
+    <article>4</article>
+    <article>5</article>
+    <article>6</article>
+    <article>7</article>
+    <article>8</article>
+    <article>9</article>
+  </section>
+  <footer>Footer</footer>
+</body>
+</html>

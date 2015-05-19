@@ -1,0 +1,16 @@
+body {
+  margin: 0 auto;
+  max-width: 1080px;
+  text-align: center;
+}
+header, footer {
+  background-color: black;
+  color: white;
+  height: 100px;
+}
+header {
+  margin-bottom: 20px;
+}
+article, aside {
+  background-color: gray;
+}
