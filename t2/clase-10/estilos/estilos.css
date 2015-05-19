@@ -1,0 +1,38 @@
+body {
+  font-family: Arial;
+  font-size: 16px;
+  margin: 0;
+}
+header {
+  background: -webkit-linear-gradient(left, #DDD, black);
+  padding: 1.5em 3em;
+}
+h1 {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+section {
+  padding: .5em 3em;
+}
+figure {
+  text-align: center;
+}
+.parte-uno {
+  overflow: hidden;
+}
+.parte-uno p:nth-child(5) {
+  clear: left;
+}
+.parte-uno p {
+  box-sizing: border-box;
+  float: left;
+  padding: 0 1em;
+  width: 33%;
+}
+p {
+  color: #555;
+  font-size: 1.2em;
+}
+span {
+  font-style: italic;
+}
