@@ -1,0 +1,101 @@
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+  max-width: 900px;
+}
+header {
+  background-color: #C02717;
+  height: 60px;
+  padding: 0 2em;
+}
+.logo {
+  margin-top: 11px;
+  width: 100px;
+}
+nav {
+  display: inline-block;
+  margin-left: 2em;
+  vertical-align: top;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline-block;
+  line-height: 60px;
+  margin-left: 1em;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  transition: all 1s ease;
+}
+nav a:hover {
+  color: black;
+}
+header input {
+  float: right;
+  margin-top: 20px;
+}
+.serie-info {
+  padding: 2em;
+  text-align: center;
+}
+.serie-info img {
+  width: 500px;
+}
+.serie-data {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: 0 1.5em;
+  text-align: left;
+  vertical-align: top;
+  width: 400px;
+}
+.serie-data h2 {
+  margin-top: 0;
+}
+.serie-data span {
+  font-size: .9em;
+  display: block;
+  font-style: italic;
+}
+.serie-data button {
+  display: block;
+  padding: .5em 1em;
+  margin: .5em 0;
+}
+.serie-data button:hover {
+  border: 0;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+}
+.series {
+  font-size: 0;
+  padding: 0 2rem;
+  text-align: center;
+}
+.series h2 {
+  font-size: 1rem;
+  text-align: left;
+}
+.serie {
+  display: inline-block;
+  margin: 0 .125rem 1rem;
+  width: 115px;
+}
+.serie img {
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+
